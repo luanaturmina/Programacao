@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+}
+
+.linha{
+    height: 33.3333%;
+}
+
+.linha-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.metade{
+    width: 50%;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.quadrado-azul{
+    width: 195px;
+    height: 195px;
+    background-color: deepskyblue;
+}
+
+.amarelo-menor{
+    background-color: yellow;
+    height: 85px;
+    width: 85px;
+}
+
+.amarelinho{
+    background-color: yellow;
+    height: 45px;
+    width: 45px;
+}
+
+.meio{
+    justify-content: center;
+    align-items: center;
+}
+
+.separados{
+    justify-content: space-between;
+    align-items: end;
+    height: 77%;
+}
+.fim-canto{
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+}
+
+.azul{
+    background-color: deepskyblue;
+    width: 50%;
+    height: 25%;
+}
+
+.vermelho{
+    background-color: red;
+    width: 50%;
+    height: 25%;
+    justify-content: end;
+    align-items: end;
+}
+
+.separar{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.direita{
+    position: absolute;
+    right: 0;
+}
+
+.cima{
+    margin-top: -156px;
+}
+
+.baixo{
+    margin-top: 156px;
+}
+
+.final{
+    justify-content: space-between;
+    align-items: center;
+}
