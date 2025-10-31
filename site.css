@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+
+.linha{
+    height: 33.3333%;
+}
+
+.dividir{
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.dividir2{
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+.dividi_verde{
+    
+}
+.flex{
+    display: flex;
+}
+
+.verde{
+    width: 100%;
+    height: 100%;
+    background-color:darkgreen;
+}
+
+.bem_vindo{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
