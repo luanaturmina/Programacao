@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.quadrado-1{
+    background-color: pink;
+    height: 800px;
+    width: 1200px;
+    border-radius: 30px;
+}
+.quadrado-2{
+    height: 100%;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(255, 121, 143);
+}
+.cima{
+    margin: 10px;
+    padding: 10px;
+}
+
+.metade{
+    height: 50%;
+    width: 100%;
+}
+.baixo{
+    margin-top: 220px;
+}
+
+.entrar{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(247, 153, 169);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.lado{
+    margin-left: 70px;
+}
+
+.quadrado_3{
+    height: 100%;
+    width: 900px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+.margin{
+    margin-left: 300px;
+    margin-top: -500px;
+}
+
+.nome{
+    background-color: rgb(255, 121, 143);
+    margin-top: 50px;
+    margin-left: -300px;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.space{
+    padding: 10px;
+}
+
+.cadastrar{
+    background-color: rgb(201, 117, 131);
+    margin-top: 680px;
+    margin-left: -275px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
