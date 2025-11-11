@@ -1,46 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
 </head>
 <body>
-    <script>
-        let num1 = 2;
-        let num2 = 0;
-        let num3 = 5;
+    <h1 id="titulo">Minha pagina HTML</h1>
 
-        function somar (num1,num2,num3){
-           return num1 + num2 + num3;
-        }
-
-        console.log(somar(num1, num2, num3));
-
-
-        function subtrair (num1,num2,num3){
-         return num1 - num2 - num3;
-        }
-
-        console.log(subtrair(num1, num2, num3));
-
-
-        function multiplicar (num1,num2,num3){
-         return num1 * num2 * num3;
-        }
-
-        console.log(multiplicar(num1, num2, num3));
-
-
-        function dividir (num1,num2,num3){
-         
-            if(num1 === 0 || num2 === 0 || num3 === 0 ){
-                return "erro"
-            }
-
-            return num1 / num2 / num3;
-        }
-
-        console.log(dividir(num1, num2, num3))
-
-    </script>
-    
+    <input type="text" id="n1">
+    <input type="text" id="n2">
+    <button onclick="somarNumeros()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <script src="script.js"></script>
 </body>
 </html>
