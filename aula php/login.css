@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+.linha-centro{
+    justify-content: center;
+}
+
+.final{
+    align-items: end;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.quadrado-1{
+    background-color: pink;
+    height: 800px;
+    width: 1200px;
+    border-radius: 30px;
+}
+.quadrado-2{
+    height: 100%;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(255, 121, 143);
+}
+.cima{
+    margin: 10px;
+    padding: 10px;
+}
+
+.metade{
+    height: 50%;
+    width: 100%;
+}
+.baixo{
+    margin-top: 220px;
+}
+
+.entrar{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(247, 153, 169);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.lado{
+    margin-left: 60px;
+}
+
+.quadrado_3{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    border-radius: 40px;
+}
+
+.margin{
+    margin-left: 300px;
+    margin-top: -500px;
+}
+
+.nome{
+    background-color: rgb(255, 121, 143);
+    margin-top: 50px;
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 10px;
+}
+.space{
+    padding: 10px;
+}
+
+.cadastrar{
+    background-color: rgb(247, 153, 169);
+    margin-top: 680px;
+    margin-left: -275px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    height: 20%;
+}
+
+.formulario{
+    height: 60%
+}
+
+.botao{
+    height: 20%;
+}
+
+.c{
+    align-items: center;
+}
+.centro{
+    justify-content: center;
+}
